@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College of Computer Studies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">CCS</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#programs" class="nav-link">Programs</a></li>
+                <li><a href="#faculty" class="nav-link">Faculty</a></li>
+                <li><a href="#announcements" class="nav-link">Announcements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="active">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to the College of Computer Studies</h1>
+                    <p>Shaping the future through innovation, technology, and excellence in computer science education.</p>
+                    <a href="#programs" class="cta-button">Explore Programs</a>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <h3>🎓 Accredited Programs</h3>
+                        <p>ABET-accredited curriculum designed for industry readiness</p>
+                    </div>
+                    <div class="hero-card">
+                        <h3>💡 Research Excellence</h3>
+                        <p>Cutting-edge research in AI, cybersecurity, and more</p>
+                    </div>
+                    <div class="hero-card">
+                        <h3>🌍 Global Impact</h3>
+                        <p>Alumni leading innovation worldwide</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About the College</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p>The College of Computer Studies stands at the forefront of technology education, preparing students to become leaders and innovators in the rapidly evolving digital landscape.</p>
+                    <p>Founded with a vision to bridge the gap between academic excellence and industry demands, we offer comprehensive programs that combine theoretical foundations with practical, hands-on experience.</p>
+                    <p>Our faculty comprises distinguished scholars and industry professionals who bring real-world expertise to the classroom, ensuring our graduates are well-equipped to tackle the challenges of tomorrow.</p>
+                </div>
+                <div class="about-content">
+                    <p>We pride ourselves on fostering an environment of innovation, collaboration, and continuous learning. Our state-of-the-art facilities, research centers, and industry partnerships provide students with unparalleled opportunities for growth and development.</p>
+                    <p>From artificial intelligence and machine learning to cybersecurity and software engineering, our programs cover the full spectrum of computer science disciplines, preparing students for diverse career paths in technology.</p>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">2,500+</div>
+                    <div class="stat-label">Active Students</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Employment Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Expert Faculty</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs">
+        <div class="container">
+            <h2>Academic Programs</h2>
+            <div class="programs-tabs">
+                <button class="tab-button active" data-tab="undergraduate">Undergraduate</button>
+                <button class="tab-button" data-tab="graduate">Graduate</button>
+                <button class="tab-button" data-tab="certifications">Certifications</button>
+            </div>
+
+            <div id="undergraduate" class="tab-content active">
+                <div class="program-card">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>A comprehensive program covering fundamental and advanced topics in computer science, including algorithms, data structures, software engineering, and artificial intelligence.</p>
+                    <button class="toggle-details" data-program="bscs">Learn More</button>
+                    <div class="program-details" id="bscs-details">
+                        <p><strong>Duration:</strong> 4 years</p>
+                        <p><strong>Key Courses:</strong> Data Structures, Algorithms, Database Systems, Operating Systems, Computer Networks, AI & Machine Learning, Software Engineering</p>
+                        <p><strong>Career Paths:</strong> Software Developer, Data Scientist, Systems Analyst, AI Engineer</p>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p>Focused on the practical application of technology in business environments, covering system administration, network management, and IT infrastructure.</p>
+                    <button class="toggle-details" data-program="bsit">Learn More</button>
+                    <div class="program-details" id="bsit-details">
+                        <p><strong>Duration:</strong> 4 years</p>
+                        <p><strong>Key Courses:</strong> Network Administration, System Analysis, Web Development, Database Management, IT Project Management, Cybersecurity</p>
+                        <p><strong>Career Paths:</strong> IT Manager, Network Administrator, Web Developer, Security Analyst</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="graduate" class="tab-content">
+                <div class="program-card">
+                    <h3>Master of Science in Computer Science</h3>
+                    <p>Advanced study in specialized areas of computer science with emphasis on research and innovation.</p>
+                    <button class="toggle-details" data-program="mscs">Learn More</button>
+                    <div class="program-details" id="mscs-details">
+                        <p><strong>Duration:</strong> 2 years</p>
+                        <p><strong>Specializations:</strong> Artificial Intelligence, Machine Learning, Cybersecurity, Data Science, Software Engineering</p>
+                        <p><strong>Requirements:</strong> Thesis or capstone project</p>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <h3>PhD in Computer Science</h3>
+                    <p>Doctoral program for those pursuing advanced research and academic careers in computer science.</p>
+                    <button class="toggle-details" data-program="phd">Learn More</button>
+                    <div class="program-details" id="phd-details">
+                        <p><strong>Duration:</strong> 3-5 years</p>
+                        <p><strong>Focus:</strong> Original research contributing to the advancement of computer science</p>
+                        <p><strong>Requirements:</strong> Dissertation defense and published research</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="certifications" class="tab-content">
+                <div class="program-card">
+                    <h3>Professional Certificate in Web Development</h3>
+                    <p>Intensive program covering modern web technologies and frameworks.</p>
+                    <button class="toggle-details" data-program="webdev">Learn More</button>
+                    <div class="program-details" id="webdev-details">
+                        <p><strong>Duration:</strong> 6 months</p>
+                        <p><strong>Topics:</strong> HTML, CSS, JavaScript, React, Node.js, Database Integration</p>
+                        <p><strong>Format:</strong> Evening and weekend classes available</p>
+                    </div>
+                </div>
+                <div class="program-card">
+                    <h3>Professional Certificate in Data Analytics</h3>
+                    <p>Learn to analyze and visualize data using industry-standard tools and techniques.</p>
+                    <button class="toggle-details" data-program="dataanalytics">Learn More</button>
+                    <div class="program-details" id="dataanalytics-details">
+                        <p><strong>Duration:</strong> 6 months</p>
+                        <p><strong>Topics:</strong> Python, R, SQL, Data Visualization, Statistical Analysis, Machine Learning Basics</p>
+                        <p><strong>Format:</strong> Online and on-campus options</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section id="faculty">
+        <div class="container">
+            <h2>Faculty Directory</h2>
+            <div class="search-filter">
+                <input type="text" id="facultySearch" class="search-box" placeholder="Search faculty by name...">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="Computer Science">Computer Science</button>
+                    <button class="filter-btn" data-filter="Information Technology">Information Technology</button>
+                    <button class="filter-btn" data-filter="Data Science">Data Science</button>
+                </div>
+            </div>
+            <div class="faculty-grid" id="facultyGrid">
+                <!-- Faculty cards will be dynamically generated by faculty.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Announcements Section -->
+    <section id="announcements">
+        <div class="container">
+            <h2>Announcements & Events</h2>
+            <div class="announcement-board" id="announcementBoard">
+                <!-- Announcements will be dynamically generated by announcements.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact & Inquiry</h2>
+            <div class="success-message" id="successMessage">
+                ✓ Your message has been sent successfully! We'll get back to you soon.
+            </div>
+            <div class="contact-grid">
+                <div>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError">Please enter your full name</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError">Please enter a valid email address</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="inquiryType">Inquiry Type *</label>
+                            <select id="inquiryType" name="inquiryType" required>
+                                <option value="">Select an option</option>
+                                <option value="admission">Admission Inquiry</option>
+                                <option value="program">Program Information</option>
+                                <option value="research">Research Collaboration</option>
+                                <option value="general">General Question</option>
+                            </select>
+                            <span class="error-message" id="inquiryTypeError">Please select an inquiry type</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required></textarea>
+                            <span class="error-message" id="messageError">Please enter your message</span>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <strong>Address</strong>
+                        <p>College of Computer Studies<br>
+                        University Campus, Main Building<br>
+                        City, State 12345</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email</strong>
+                        <p>info@ccs.university.edu</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Phone</strong>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Office Hours</strong>
+                        <p>Monday - Friday: 8:00 AM - 5:00 PM<br>
+                        Saturday: 9:00 AM - 1:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript Files -->
+    <script src="js/navigation.js"></script>
+    <script src="js/programs.js"></script>
+    <script src="js/faculty.js"></script>
+    <script src="js/announcements.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
